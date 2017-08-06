@@ -33,7 +33,9 @@
   * ted80001.srt 由ted80001.wav 自动生成 
 
 ## 仅供参考##
-	
+	知乎上详细的说明 https://zhuanlan.zhihu.com/p/28347508
+	音乐切割小音频 https://pan.baidu.com/s/1hrXxEJU
+	演讲切割小音频 https://pan.baidu.com/s/1jIrC0F8#list/path=%2F
 ## 联系方式 ##
   wj3235@126.com
 
