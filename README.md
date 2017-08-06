@@ -36,7 +36,8 @@
 	
 ## 联系方式 ##
   wj3235@126.com
-  
+
+©2017 alex All Rights Reserved.
   
 
 
