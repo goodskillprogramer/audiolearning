@@ -51,6 +51,7 @@ Ver 0.0.1
   * 修改speech_recognizai_baidu方法接受流,不再去读文件
   * 添加注释 
   * 添加ffmpeg分离音频,烧制字幕指令
+  
 ©2017 alex All Rights Reserved.
   
 
