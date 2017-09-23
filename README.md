@@ -1,6 +1,6 @@
 # audio learning #
 ## feature ##
-  *auto generating subtitle(srt format ) or text for audio data
+  * auto generating subtitle(srt format ) or text for audio data
   * cut audio data(wav format ,1 channel) to small part by speakers pause
 
 ## notice ##
@@ -17,9 +17,17 @@
 ## contact ##
   wj3235@126.com
 
+## 更新日志 ##
+### Ver 0.0.1 ###
+  * change mdedian filter arithmetic
+  * arithmetic improvement for insert sutiable audio info
+  * no need to split wav file,use stream to do baidu query
+  * use ffmpeg for caption
+  * other bug fix and improvements
+   
 # 语音学习 #
 ## 功能 ##
-  *自动生成语音字幕
+  * 自动生成语音字幕
   * 可以根据说话人的停顿，进行自动片段剪辑
 
 ## 注意事项 ##
@@ -40,8 +48,8 @@
   wj3235@126.com
   
   
-## 更新日志 ##  
-Ver 0.0.1
+## 更新日志 ##
+### Ver 0.0.1 ###
   * 中值滤波scipy.signal.medfilt计算速度较慢,更新计算方法
   * get_wave_statistic函数添加framerate(采样率)参数,支持8000/16000,添加处理(无声音时长超过17s切为多个16.999s的无声音时长)
   * calculate_other_statistic_info函数添加framerate(采样率)参数,支持8000/16000
