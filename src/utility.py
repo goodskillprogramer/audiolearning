@@ -6,7 +6,7 @@ Created on Sun Aug 06 05:26:49 2017
 """
 
 def write_txt_to_file(path,txt):
-    with open(path,'a+') as f:
+    with open(path,'ab+') as f:
         f.write(txt)
 
 def seconds_to_timestamp_str(seconds):

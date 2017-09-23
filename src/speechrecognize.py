@@ -26,5 +26,13 @@ def baidu(filePath,samplerate,language):
     return response
         
 def speech_recognizai_baidu(filepath,samplerate,language='zh'):
-    return baidu(filepath,samplerate,language)
+    return baidu2(filepath,samplerate,language)
     
+def baidu2(filestream,samplerate,language):
+    global APP_ID,API_KEY,SECRET_KEY
+    aipSpeech = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
+        
+    response=aipSpeech.asr(filestream, 'wav', samplerate, {
+        'lan': language,
+    })
+    return response
