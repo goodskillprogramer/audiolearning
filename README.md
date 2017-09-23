@@ -38,7 +38,19 @@
 	演讲切割小音频 https://pan.baidu.com/s/1jIrC0F8#list/path=%2F
 ## 联系方式 ##
   wj3235@126.com
-
+  
+  
+## 更新日志 ##  
+Ver 0.0.1
+  * 中值滤波scipy.signal.medfilt计算速度较慢,更新计算方法
+  * get_wave_statistic函数添加framerate(采样率)参数,支持8000/16000,添加处理(无声音时长超过17s切为多个16.999s的无声音时长)
+  * calculate_other_statistic_info函数添加framerate(采样率)参数,支持8000/16000
+  * 修改原来循环排序生成间隔小于17s时间点数组算法(每次循环采用折半插入排序,因为插入的是排好序的数组,原来每次循环采用sort,视频时长超过1小时的话基本算不完了...)
+  * 去掉原来将wav切成具体的小文件步骤,直接使用流访问百度api
+  * 修改保存字幕格式可以直接使用ffmpeg将字幕烧制到视频中
+  * 修改speech_recognizai_baidu方法接受流,不再去读文件
+  * 添加注释 
+  * 添加ffmpeg分离音频,烧制字幕指令
 ©2017 alex All Rights Reserved.
   
 
